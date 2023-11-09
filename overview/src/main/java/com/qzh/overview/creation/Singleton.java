@@ -1,4 +1,4 @@
-package qzh.overview.creation;
+package com.qzh.overview.creation;
 
 /**
  * 单例模式
