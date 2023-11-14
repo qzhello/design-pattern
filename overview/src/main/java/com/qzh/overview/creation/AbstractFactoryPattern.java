@@ -1,6 +1,6 @@
 package com.qzh.overview.creation;
 
-public class AbstractFactory {
+public class AbstractFactoryPattern {
 
     public static void main(String[] args) {
         HuaWeiMatePhoneFactory huaWeiMatePhoneFactory = new HuaWeiMatePhoneFactory();

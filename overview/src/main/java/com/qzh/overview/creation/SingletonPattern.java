@@ -8,24 +8,24 @@ package com.qzh.overview.creation;
  * 3. 系统环境变量
  * 4. 上下文
  */
-public class Singleton {
+public class SingletonPattern {
     /**
      * 双重检验锁+内存可见性
      */
-    private static volatile Singleton instance = null;
+    private static volatile SingletonPattern instance = null;
 
     /**
      * 构造器私有，保证外部无法实例化
      */
-    private Singleton() {
+    private SingletonPattern() {
     }
 
     /**
      * 懒汉式
      */
-    public static Singleton getInstance() {
+    public static SingletonPattern getInstance() {
         if (instance == null) {
-            instance = new Singleton();
+            instance = new SingletonPattern();
         }
         return instance;
     }
@@ -33,18 +33,18 @@ public class Singleton {
     /**
      * 饿汉式
      */
-    public static Singleton getInstance2() {
+    public static SingletonPattern getInstance2() {
         return instance;
     }
 
     /**
      * 双重检查锁
      */
-    public static Singleton getInstance3() {
+    public static SingletonPattern getInstance3() {
         if (instance == null) {
-            synchronized (Singleton.class) {
+            synchronized (SingletonPattern.class) {
                 if (instance == null) {
-                    instance = new Singleton();
+                    instance = new SingletonPattern();
                     return instance;
                 }
             }
@@ -55,11 +55,11 @@ public class Singleton {
     /**
      * 静态内部类
      */
-    public static Singleton getInstance4() {
+    public static SingletonPattern getInstance4() {
         return SingletonHolder.instance;
     }
 
     private static class SingletonHolder {
-        private static final Singleton instance = new Singleton();
+        private static final SingletonPattern instance = new SingletonPattern();
     }
 }

@@ -1,6 +1,6 @@
 package com.qzh.overview.creation;
 
-public class FactoryMethod {
+public class FactoryMethodPattern {
 
     public static void main(String[] args) {
         AbstractCarFactory benzFactory = new BenzFactory();

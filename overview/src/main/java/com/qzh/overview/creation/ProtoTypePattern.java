@@ -20,7 +20,7 @@ import java.io.Serializable;
  * 3. 一个对象有多个修改者
  * 4. 深拷贝、浅拷贝
  */
-public class ProtoType {
+public class ProtoTypePattern {
 
     public static void main(String[] args) throws CloneNotSupportedException {
         Proto proto = new Proto();

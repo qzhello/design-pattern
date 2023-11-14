@@ -9,7 +9,7 @@ import lombok.Data;
  * <p>
  * 例如：StringBuilder、Lombok的@Builder
  */
-public class BuilderMode {
+public class BuilderPattern {
 
     public static void main(String[] args) {
         XiaoMiBuilder xiaoMiBuilder = new XiaoMiBuilder();
