@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.qzh</groupId>
-    <artifactId>design-pattern</artifactId>
+    <artifactId>design-pattern-algorithms</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -15,8 +15,6 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <maven.test.skip>true</maven.test.skip>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
         <maven-assembly-plugin.version>3.0.0</maven-assembly-plugin.version>
         <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
         <lombok.version>1.18.20</lombok.version>
@@ -24,8 +22,8 @@
     </properties>
 
     <modules>
-        <module>overview</module>
-        <module>demo</module>
+        <module>pattern</module>
+        <module>algorithms</module>
     </modules>
 
     <dependencies>
