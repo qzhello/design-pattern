@@ -1,4 +1,4 @@
-package com.qzh.overview.creation;
+package com.qzh.pattern.creation;
 
 import lombok.Data;
 import org.apache.commons.lang3.SerializationUtils;

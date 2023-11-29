@@ -1,4 +1,4 @@
-package com.qzh.overview.creation;
+package com.qzh.pattern.creation;
 
 public class AbstractFactoryPattern {
 

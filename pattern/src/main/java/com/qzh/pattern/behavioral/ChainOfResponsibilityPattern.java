@@ -1,4 +1,4 @@
-package com.qzh.overview.behavioral;
+package com.qzh.pattern.behavioral;
 
 /**
  * 责任链模式/职责链模式

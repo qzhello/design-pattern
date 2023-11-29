@@ -1,4 +1,4 @@
-package com.qzh.overview.behavioral;
+package com.qzh.pattern.behavioral;
 
 /**
  * 状态模式

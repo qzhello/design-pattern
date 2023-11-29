@@ -1,4 +1,4 @@
-package com.qzh.overview.behavioral;
+package com.qzh.pattern.behavioral;
 
 import java.util.ArrayList;
 import java.util.List;

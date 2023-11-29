@@ -1,4 +1,4 @@
-package com.qzh.overview.structure;
+package com.qzh.pattern.structure;
 
 import java.util.HashMap;
 import java.util.Map;
